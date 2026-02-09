@@ -156,70 +156,79 @@ const App = () => {
     return (
         <Container maxWidth="md" sx={{ py: { xs: 4, md: 8 }, minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
             {/* Header */}
-            <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mb: 6 }}>
-                <Box>
-                    <Typography variant="h4" gutterBottom sx={{ background: 'linear-gradient(90deg, #6366f1 0%, #ec4899 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', fontWeight: 800 }}>
+            <Box sx={{ mb: 6 }}>
+                <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mb: 0.5 }}>
+                    <Typography variant="h4" sx={{ background: 'linear-gradient(90deg, #6366f1 0%, #ec4899 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', fontWeight: 800, mb: 0 }}>
                         Tanulókártya
                     </Typography>
-                    <Typography variant="body2" color="text.secondary">
-                        {currentSource.label} • {currentIndex + 1} / {cards.length} kártya
-                    </Typography>
-                </Box>
 
-                <Stack direction="row" spacing={1} sx={{ flexShrink: 0 }}>
-                    <Tooltip title="Témakör választása">
-                        <Button
-                            variant="outlined"
-                            size="small"
-                            startIcon={<BookOpen size={16} />}
-                            onClick={(e) => setAnchorEl(e.currentTarget)}
-                            sx={{
-                                borderRadius: 2,
-                                borderColor: 'rgba(255,255,255,0.1)',
-                                color: 'white',
-                                px: { xs: 1, sm: 2 },
-                                minWidth: { xs: 'auto', sm: 120 }
-                            }}
-                        >
-                            <Box component="span" sx={{ display: { xs: 'none', sm: 'inline' } }}>Témakörök</Box>
-                            <Box component="span" sx={{ display: { xs: 'inline', sm: 'none' } }}>Témák</Box>
-                        </Button>
-                    </Tooltip>
-
-                    <Menu
-                        anchorEl={anchorEl}
-                        open={Boolean(anchorEl)}
-                        onClose={() => setAnchorEl(null)}
-                        PaperProps={{
-                            sx: {
-                                bgcolor: 'background.paper',
-                                border: '1px solid rgba(255,255,255,0.1)',
-                                minWidth: 200,
-                            }
-                        }}
-                    >
-                        {SOURCES.map((source) => (
-                            <MenuItem
-                                key={source.id}
-                                onClick={() => handleSourceChange(source)}
-                                selected={source.id === currentSource.id}
+                    <Stack direction="row" spacing={1} sx={{ flexShrink: 0 }}>
+                        <Tooltip title="Témakör választása">
+                            <Button
+                                variant="outlined"
+                                size="small"
+                                startIcon={<BookOpen size={16} />}
+                                onClick={(e) => setAnchorEl(e.currentTarget)}
                                 sx={{
-                                    py: 1.5,
-                                    '&.Mui-selected': { bgcolor: 'primary.dark' },
-                                    '&:hover': { bgcolor: 'rgba(255,255,255,0.05)' }
+                                    borderRadius: 2,
+                                    borderColor: 'rgba(255,255,255,0.1)',
+                                    color: 'white',
+                                    px: { xs: 1, sm: 2 },
+                                    height: '40px',
+                                    '&:hover': { borderColor: 'primary.main', bgcolor: 'rgba(99, 102, 241, 0.1)' }
                                 }}
                             >
-                                {source.label}
-                            </MenuItem>
-                        ))}
-                    </Menu>
+                                <Typography variant="button" sx={{ display: { xs: 'none', sm: 'block' } }}>
+                                    Témák
+                                </Typography>
+                            </Button>
+                        </Tooltip>
 
-                    <Tooltip title="Súgó">
-                        <IconButton onClick={() => setIsHelpOpen(true)} sx={{ bgcolor: 'rgba(255,255,255,0.05)' }}>
-                            <HelpCircle size={24} />
+                        <Menu
+                            anchorEl={anchorEl}
+                            open={Boolean(anchorEl)}
+                            onClose={() => setAnchorEl(null)}
+                            PaperProps={{
+                                sx: {
+                                    bgcolor: 'background.paper',
+                                    border: '1px solid rgba(255,255,255,0.1)',
+                                    minWidth: 200,
+                                }
+                            }}
+                        >
+                            {SOURCES.map((source) => (
+                                <MenuItem
+                                    key={source.id}
+                                    onClick={() => handleSourceChange(source)}
+                                    selected={source.id === currentSource.id}
+                                    sx={{
+                                        py: 1.5,
+                                        '&.Mui-selected': { bgcolor: 'primary.dark' },
+                                        '&:hover': { bgcolor: 'rgba(255,255,255,0.05)' }
+                                    }}
+                                >
+                                    {source.label}
+                                </MenuItem>
+                            ))}
+                        </Menu>
+
+                        <IconButton
+                            onClick={() => setIsHelpOpen(true)}
+                            sx={{
+                                color: 'white',
+                                bgcolor: 'rgba(255,255,255,0.05)',
+                                '&:hover': { bgcolor: 'rgba(255,255,255,0.1)' },
+                                width: '40px',
+                                height: '40px'
+                            }}
+                        >
+                            <HelpCircle size={20} />
                         </IconButton>
-                    </Tooltip>
-                </Stack>
+                    </Stack>
+                </Box>
+                <Typography variant="body2" color="text.secondary">
+                    {currentSource.label} • {currentIndex + 1} / {cards.length} kártya
+                </Typography>
             </Box>
 
             {/* Main Flashcard */}
