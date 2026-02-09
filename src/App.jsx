@@ -3,6 +3,7 @@ import { Container, Box, Typography, Button, IconButton, Paper, Stack, Tooltip, 
 import { ChevronLeft, ChevronRight, Shuffle, HelpCircle, BookOpen } from 'lucide-react';
 import Papa from 'papaparse';
 import Flashcard from './components/Flashcard';
+import LoadingScreen from './components/LoadingScreen';
 import HelpModal from './components/HelpModal';
 
 // Hardcoded sources based on files in public/
@@ -14,50 +15,77 @@ const SOURCES = [
 ];
 
 const App = () => {
-    const [cards, setCards] = useState([]);
+    const [allData, setAllData] = useState({}); // { sourceId: [cards] }
     const [currentIndex, setCurrentIndex] = useState(0);
     const [isFlipped, setIsFlipped] = useState(false);
     const [isHelpOpen, setIsHelpOpen] = useState(false);
     const [loading, setLoading] = useState(true);
+    const [loadingMessage, setLoadingMessage] = useState("Kezelés indítása...");
     const [currentSource, setCurrentSource] = useState(SOURCES[0]);
     const [anchorEl, setAnchorEl] = useState(null);
 
-    // Load CSV data
+    // Preload ALL CSV data at startup
     useEffect(() => {
-        const loadCSV = async () => {
+        const preloadAllCSVs = async () => {
             setLoading(true);
+            const loadedData = {};
+
             try {
-                const response = await fetch(currentSource.file);
-                const reader = response.body.getReader();
-                const result = await reader.read();
-                const decoder = new TextDecoder('utf-8');
-                const csv = decoder.decode(result.value);
+                for (let i = 0; i < SOURCES.length; i++) {
+                    const source = SOURCES[i];
+                    setLoadingMessage(`${source.label} betöltése...`);
 
-                Papa.parse(csv, {
-                    header: false,
-                    skipEmptyLines: true,
-                    complete: (results) => {
-                        const parsedCards = results.data.map(row => ({
-                            question: row[0],
-                            answer: row[1]
-                        })).filter(card => card.question && card.answer);
+                    const response = await fetch(source.file);
+                    if (!response.ok) throw new Error(`Hiba a fájl betöltésekor: ${source.file}`);
 
-                        setCards(parsedCards);
-                        setCurrentIndex(0);
-                        setIsFlipped(false);
-                        setLoading(false);
-                    }
-                });
+                    const text = await response.text();
+
+                    // Parse the CSV text
+                    const parsedCards = await new Promise((resolve, reject) => {
+                        Papa.parse(text, {
+                            header: false,
+                            skipEmptyLines: true,
+                            complete: (results) => {
+                                if (results.errors.length > 0) {
+                                    console.warn('PapaParse hibák:', results.errors);
+                                }
+                                const cards = results.data
+                                    .map(row => ({
+                                        question: row[0],
+                                        answer: row[1]
+                                    }))
+                                    .filter(card => card.question && card.answer);
+                                resolve(cards);
+                            },
+                            error: (err) => reject(err)
+                        });
+                    });
+
+                    loadedData[source.id] = parsedCards;
+                }
+
+                setAllData(loadedData);
+                // Artificial delay for better UX of the splash screen
+                setLoadingMessage("Sikeres betöltés!");
+                setTimeout(() => setLoading(false), 1000);
             } catch (error) {
-                console.error('Hiba a CSV betöltésekor:', error);
-                setLoading(false);
+                console.error('Hiba az adatok előtöltésekor:', error);
+                setLoadingMessage("Hiba történt a betöltéskor.");
+                // Still allow entry if some failed, or show error? 
+                // For now, let's just proceed with whatever we have
+                setAllData(loadedData);
+                setTimeout(() => setLoading(false), 2000);
             }
         };
 
-        loadCSV();
-    }, [currentSource]);
+        preloadAllCSVs();
+    }, []);
+
+    const cards = allData[currentSource.id] || [];
+    const currentCard = cards[currentIndex];
 
     const handleNext = useCallback(() => {
+        if (!cards.length) return;
         setIsFlipped(false);
         setTimeout(() => {
             setCurrentIndex((prev) => (prev + 1) % cards.length);
@@ -65,6 +93,7 @@ const App = () => {
     }, [cards.length]);
 
     const handlePrevious = useCallback(() => {
+        if (!cards.length) return;
         setIsFlipped(false);
         setTimeout(() => {
             setCurrentIndex((prev) => (prev - 1 + cards.length) % cards.length);
@@ -72,6 +101,7 @@ const App = () => {
     }, [cards.length]);
 
     const handleRandom = useCallback(() => {
+        if (!cards.length) return;
         setIsFlipped(false);
         setTimeout(() => {
             const randomIndex = Math.floor(Math.random() * cards.length);
@@ -79,12 +109,14 @@ const App = () => {
         }, 150);
     }, [cards.length]);
 
-    const handleFlip = () => {
-        setIsFlipped(!isFlipped);
-    };
+    const handleFlip = useCallback(() => {
+        setIsFlipped((prev) => !prev);
+    }, []);
 
     const handleSourceChange = (source) => {
         setCurrentSource(source);
+        setCurrentIndex(0);
+        setIsFlipped(false);
         setAnchorEl(null);
     };
 
@@ -106,14 +138,15 @@ const App = () => {
     }, [handleFlip, handleNext, handlePrevious]);
 
     if (loading) {
-        return (
-            <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', bgcolor: 'background.default' }}>
-                <Typography variant="h6" color="text.primary">Betöltés...</Typography>
-            </Box>
-        );
+        return <LoadingScreen message={loadingMessage} />;
     }
 
-    const currentCard = cards[currentIndex];
+    // Safety check in case of unexpected state
+    if (!cards || cards.length === 0) {
+        return (
+            <LoadingScreen message="Kártyák előkészítése..." />
+        );
+    }
 
     return (
         <Container maxWidth="md" sx={{ py: { xs: 4, md: 8 }, minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
