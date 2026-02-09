@@ -128,15 +128,23 @@ const App = () => {
                     </Typography>
                 </Box>
 
-                <Stack direction="row" spacing={1}>
+                <Stack direction="row" spacing={1} sx={{ flexShrink: 0 }}>
                     <Tooltip title="Témakör választása">
                         <Button
                             variant="outlined"
-                            startIcon={<BookOpen size={18} />}
+                            size="small"
+                            startIcon={<BookOpen size={16} />}
                             onClick={(e) => setAnchorEl(e.currentTarget)}
-                            sx={{ borderRadius: 2, borderColor: 'rgba(255,255,255,0.1)', color: 'white' }}
+                            sx={{
+                                borderRadius: 2,
+                                borderColor: 'rgba(255,255,255,0.1)',
+                                color: 'white',
+                                px: { xs: 1, sm: 2 },
+                                minWidth: { xs: 'auto', sm: 120 }
+                            }}
                         >
-                            Témakörök
+                            <Box component="span" sx={{ display: { xs: 'none', sm: 'inline' } }}>Témakörök</Box>
+                            <Box component="span" sx={{ display: { xs: 'inline', sm: 'none' } }}>Témák</Box>
                         </Button>
                     </Tooltip>
 
@@ -202,9 +210,9 @@ const App = () => {
                     border: '1px solid rgba(255, 255, 255, 0.05)'
                 }}
             >
-                <Stack direction="row" spacing={2} justifyContent="center" alignItems="center">
-                    <IconButton onClick={handlePrevious} size="large" sx={{ color: 'white' }}>
-                        <ChevronLeft size={32} />
+                <Stack direction="row" spacing={{ xs: 0.5, sm: 2 }} justifyContent="center" alignItems="center">
+                    <IconButton onClick={handlePrevious} size="medium" sx={{ color: 'white' }}>
+                        <ChevronLeft size={28} />
                     </IconButton>
 
                     <Button
@@ -213,17 +221,21 @@ const App = () => {
                         onClick={handleFlip}
                         disabled={cards.length === 0}
                         sx={{
-                            px: { xs: 4, md: 8 },
-                            height: 56,
+                            px: { xs: 2, sm: 4, md: 8 },
+                            minHeight: 56,
+                            height: 'auto',
+                            py: 1,
                             borderRadius: 3,
-                            fontSize: '1.1rem'
+                            fontSize: { xs: '0.9rem', sm: '1.1rem' },
+                            flexGrow: 1,
+                            maxWidth: 400
                         }}
                     >
                         {isFlipped ? 'Kérdés' : 'Válasz megtekintése'}
                     </Button>
 
-                    <IconButton onClick={handleNext} size="large" sx={{ color: 'white' }}>
-                        <ChevronRight size={32} />
+                    <IconButton onClick={handleNext} size="medium" sx={{ color: 'white' }}>
+                        <ChevronRight size={28} />
                     </IconButton>
 
                     <Box sx={{ borderLeft: '1px solid rgba(255,255,255,0.1)', height: 32, mx: 1 }} />
