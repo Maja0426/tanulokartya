@@ -225,6 +225,8 @@ const App = () => {
                         answer={currentCard.answer}
                         isFlipped={isFlipped}
                         onFlip={handleFlip}
+                        onNext={handleNext}
+                        onPrevious={handlePrevious}
                     />
                 ) : (
                     <Typography variant="h6" color="text.secondary">Nincsenek kártyák ebben a témakörben.</Typography>

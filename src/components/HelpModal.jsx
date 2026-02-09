@@ -57,13 +57,15 @@ const HelpModal = ({ open, onClose }) => {
                         />
                     </ListItem>
                     <ListItem>
-                        <ListItemIcon>
+                        <Box sx={{ display: 'flex', gap: 2 }}>
                             <Smartphone size={24} color="#6366f1" />
-                        </ListItemIcon>
-                        <ListItemText
-                            primary="Mobil használat"
-                            secondary="Érintsd meg a kártyát bárhol a válasz megjelenítéséhez."
-                        />
+                            <Box>
+                                <Typography variant="subtitle1" sx={{ fontWeight: 600 }}>Mobil használat</Typography>
+                                <Typography variant="body2" color="text.secondary">
+                                    Legyints balra a következő, jobbra az előző kártyához. Érintsd meg a kártyát bárhol a fordításhoz.
+                                </Typography>
+                            </Box>
+                        </Box>
                     </ListItem>
                 </List>
 

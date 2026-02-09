@@ -67,12 +67,35 @@ const renderText = (text) => {
     });
 };
 
-const Flashcard = ({ question, answer, isFlipped, onFlip }) => {
+const Flashcard = ({ question, answer, isFlipped, onFlip, onNext, onPrevious }) => {
+    const swipeThreshold = 50;
+
+    const handleDragEnd = (event, info) => {
+        const offset = info.offset.x;
+        const velocity = info.velocity.x;
+
+        if (offset < -swipeThreshold || velocity < -500) {
+            onNext?.();
+        } else if (offset > swipeThreshold || velocity > 500) {
+            onPrevious?.();
+        }
+    };
+
     return (
-        <CardContainer onClick={onFlip}>
+        <CardContainer>
             <InnerCard
+                drag="x"
+                dragConstraints={{ left: 0, right: 0 }}
+                dragElastic={0.7}
+                onDragEnd={handleDragEnd}
                 animate={{ rotateY: isFlipped ? 180 : 0 }}
+                whileTap={{ cursor: 'grabbing' }}
                 transition={{ duration: 0.6, type: 'spring', stiffness: 260, damping: 20 }}
+                onClick={(e) => {
+                    // Only flip if it wasn't a significant drag
+                    if (Math.abs(e.defaultPrevented)) return; // This might not be enough
+                    onFlip();
+                }}
             >
                 {/* Front Side */}
                 <CardFace sx={{ background: 'linear-gradient(135deg, #1e293b 0%, #0f172a 100%)' }}>
