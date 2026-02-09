@@ -1,0 +1,104 @@
+Melyik három magyar mérnök szabadalmaztatta a transzformátort 1885-ben?,"Bláthy Ottó Titusz, Déri Miksa és Zipernovszky Károly."
+Miért előnyösebb a nagyfeszültségű energiaátvitel a kisfeszültségűnél?,"Mert ugyanazon teljesítmény átviteléhez kisebb áramerősség szükséges, ami csökkenti a vezetékveszteséget."
+Hogyan aránylik a vezeték fűtési vesztesége ($P_v$) az áramerősséghez?,A veszteség az áramerősség négyzetével arányos ($P_v = I^2 R$).
+Milyen feszültségtartományt állítanak elő általában az erőművi generátorok?,$6$ és $18\text{ kV}$ közötti feszültséget.
+Mekkora a szabványos kisfeszültségű elosztóhálózat névleges feszültsége Magyarországon?,$3 \times 400/230\text{ V}$ (vagy $0.4\text{ kV}$).
+Mi a villamosenergia-rendszer fogalma?,"A villamos energia előállítására, átvitelére és elosztására szolgáló berendezések (villamos művek) együttműködő rendszere."
+Milyen hálózati feszültségszintek tartoznak az országos alaphálózathoz?,"$330$, $400$ és $750\text{ kV}$."
+Mi a főelosztóhálózat feladata?,A villamos energia szállítása az alaphálózati csomópontokból az elosztóhálózat táppontjaiba.
+Milyen hálózati alakzatot nevezünk sugaras hálózatnak?,"Egyetlen pontból táplált, többszörösen szétágazó nyitott vezetékrendszert."
+Mi a gyűrűs hálózat legnagyobb előnye?,"A fogyasztók két irányból kaphatnak energiát, így üzemzavar esetén a hibahely szakaszolható."
+Fogalom: Hálózati leágazópont,A közcélú elosztóhálózat és a csatlakozóvezeték összekötési pontja.
+Mi határozza meg a csatlakozási pontot?,Ez a villamosmű és a fogyasztói berendezések közötti tulajdonjogi és felelősségi határ.
+Milyen dokumentum tartalmazza a kábel nyomvonalának és szerelvényeinek pontos helyzetét?,A fektetési rajz.
+Mekkora a legkisebb megengedett hajlítási sugár többerű műanyag szigetelésű kábel fektetésekor?,A kábel külső átmérőjének 15-szöröse ($15d$).
+Milyen vizsgálatokat kell elvégezni a kábel szerelése előtt?,"Szemrevételezés, szigetelési ellenállás mérése és a burkolat feszültségpróbája."
+Melyek a kábelfektetés legfontosabb eszközei?,"Húzógép, húzóharisnya és továbbítógörgők."
+Mi a különbség a csatlakozóvezeték és a méretlen fővezeték között?,"A csatlakozóvezeték a hálózattól a mérőig tart, a méretlen fővezeték a csatlakozó főelosztót és a mérőhelyet köti össze."
+Hová helyezhető el a fogyasztásmérő berendezés?,"Kizárólag a szolgáltató által jóváhagyott, tipizált mérőszekrénybe."
+Mi a felhasználói mért főelosztó (lakáselosztó) feladata?,A mért villamos energia elosztása az egyes áramkörök felé és azok védelme.
+Milyen modularitású eszközöket építenek be jellemzően egy lakáselosztóba?,"Kismegszakítókat, áram-védőkapcsolót (ÁVK) és esetenként túlfeszültség-levezetőt."
+Mekkora tartalék helyet célszerű hagyni egy kiselosztóban a későbbi bővítéshez?,$10 - 30\%$ szabad helyet.
+Milyen szempontok alapján kell szétválasztani a családi ház villamos áramköreit?,"Logikai, teljesítmény szerinti, elhelyezkedés szerinti és karbantarthatósági szempontok alapján."
+Mely fogyasztóknak kötelező önálló áramkört kiépíteni egy lakásban?,"Nagy teljesítményű fogyasztóknak, mint a villamos tűzhely, bojler vagy klíma."
+Szabad-e egy védőcsőbe húzni az erősáramú és a gyengeáramú (informatikai) vezetékeket?,"Nem, az informatikai kábeleket külön védőcsőben kell vezetni."
+Milyen jelölés utal a harmonizált szabvány szerinti vezetékre a típusjelben?,"A kezdő ""H"" betű (pl. $H07V-U$)."
+"Mit jelent a $H07V-U$ jelölésben a ""V"" betű?",PVC érszigetelést.
+Milyen színűnek kell lennie a védővezetőnek ($PE$)?,Zöld-sárga csíkosnak.
+Mi a különbség a váltókapcsoló és a keresztkapcsoló alkalmazása között?,"Váltókapcsolóval két helyről, keresztkapcsoló közbeiktatásával kettőnél több helyről vezérelhető egy lámpa."
+Mi a szerepe az induktív előtétnek (fojtótekercsnek) a fénycsőkapcsolásban?,A névleges áram beállítása és korlátozása az üzemi állapotban.
+Mit jelent az IP védettségi fokozat első számjegye?,A szilárd tárgyak és por behatolása elleni védelmet.
+Mit jelent az IP védettségi fokozat második számjegye?,A víz behatolása elleni védelmet.
+Sorolja fel a túláram két alaptípusát!,A túlterhelési áram és a zárlati áram.
+Milyen elven működik a kismegszakító túlterhelés elleni védelme?,"Termikus elven, egy ikerfém (bimetall) segítségével."
+Milyen elven működik a kismegszakító zárlatvédelmi kioldója?,Elektromágneses elven.
+Mekkora a törpefeszültség felső határa váltakozó áram ($AC$) esetén?,$50\text{ V}$.
+Mekkora a törpefeszültség felső határa egyenáram ($DC$) esetén?,$120\text{ V}$.
+Mi jellemzi a II. érintésvédelmi osztályba tartozó villamos gyártmányokat?,A kettős vagy megerősített szigetelés (védővezető nem szükséges).
+Milyen szimbólum jelöli a kettős szigetelésű berendezéseket?,Két egymásba helyezett négyzet.
+Mi a SELV rendszer lényege?,"Földelés nélküli érintésvédelmi törpefeszültség, amely biztonsági tápforrásról üzemel."
+Mekkora áramerősség okozhat már emberi szívkamralebegést $50\text{ Hz}$-en?,$80 - 100\text{ mA}$ közötti áram.
+Mekkora az emberi test ellenállásának számított átlagértéke érintésvédelmi számításoknál?,$1000\text{ }\Omega$ ($1\text{ k}\Omega$).
+Mit jelent a TN-S hálózatkép?,"Olyan nullázott rendszer, ahol a nullavezető ($N$) és a védővezető ($PE$) a teljes hálózaton külön van választva."
+Mit jelent a TN-C hálózatkép?,"Olyan nullázott rendszer, ahol a nullavezető és a védővezető funkciója közös ($PEN$ vezető) a hálózat egy részén."
+Mi a limitfeszültség ($U_L$) fogalma?,"Az a maximális érintési feszültség, amely tartósan fennmaradhat az emberi test károsodása nélkül ($50\text{ V AC}$)."
+Melyik hálózatnál nincs a táppont közvetlenül leföldelve?,Az IT rendszerben.
+Mi az áram-védőkapcsoló (ÁVK) működési elve?,A fázisvezetőkben és a nullavezetőben folyó áramok vektoriális összegzésén alapul (differenciáláram mérése).
+Milyen fémes részeket kell bekötni az EPH-hálózatba?,"Nagy kiterjedésű fémtesteket, fémes közműhálózatokat és az épület fémszerkezeteit."
+Milyen anyagú és keresztmetszetű vezetőt kell alkalmazni EPH-gerincvezetőként?,Legalább $6\text{ mm}^2$ keresztmetszetű rézvezetőt.
+"Mi a villámvédelmi ""levezető rendszer"" feladata?",A villámáram biztonságos elvezetése a felfogótól a földelő rendszerig.
+Melyek a külső villámvédelem fő részei?,"Felfogó rendszer, levezető rendszer és földelő rendszer."
+Mi a transzformátor vasmagjának elsődleges feladata?,A mágneses fluxus összefogása és közvetítése a tekercsek között.
+Milyen veszteségeket foglal magában a transzformátor vasvesztesége?,A hiszterézis veszteséget és az örvényáramú veszteséget.
+Milyen elven csökkenthető a transzformátor örvényáramú vesztesége?,A vasmag egymástól elszigetelt vékony lemezekből való összeállításával.
+Mit jelent a relatív permeabilitás ($\mu_r$)?,"Megmutatja, hogy az indukció hányszor lesz nagyobb, ha a teret vákuum helyett az adott anyag tölti ki."
+Milyen anyagokat nevezünk ferromágnesesnek?,"Azokat, amelyek $\mu_r$ értéke sokkal nagyobb egynél (pl. vas, nikkel, kobalt)."
+"Mi a ""Dyo 5"" transzformátor primer tekercsének kapcsolása?",Delta ($D$) kapcsolás.
+"Mit jelent az ""o"" betű a transzformátor ""Dyo"" jelölésében?",Hogy a szekunder oldali csillagpont ki van vezetve.
+Mi a különbség a lágymágnesek és keménymágnesek között?,"A lágymágnesek könnyen mágnesezhetők és kis a remanenciájuk, a keménymágnesek megőrzik mágnességüket."
+Melyek a háromfázisú aszinkron motor fő szerkezeti részei?,Állórész (vastest és tekercselés) és forgórész (kalickás vagy csúszógyűrűs).
+Hogyan változik a motor indítási árama csillag-delta indításkor?,A csillag kapcsolású indítási áram a delta kapcsolásúnak az egyharmada.
+Miért van szükség kondenzátorra az egyfázisú aszinkron motornál?,"A segédfázis áramának eltolásához, ami létrehozza az induláshoz szükséges forgómágneses mezőt."
+Hogyan működik a szinkron generátor?,"Egy egyenárammal gerjesztett forgórész forog az állórész tekercsei előtt, feszültséget indukálva azokban."
+Mi a kommutátor feladata egyenáramú generátornál?,A tekercsekben indukált váltakozó feszültség egyenirányítása a kivezetéseken.
+Mit jelent a tekercselés impregnálása?,A tekercsek bevonása szigetelőlakkal a nedvesség elleni védelem és a mechanikai rögzítés érdekében.
+Hogyan csoportosítjuk a kapcsolókészülékeket a működtetés módja szerint?,Kézi működtetésű és távműködtetésű (pl. mágneskapcsoló) készülékekre.
+Milyen tényezők befolyásolják az érintkezők átmeneti ellenállását?,"Az érintkező felület nagysága, anyaga és az összenyomó erő."
+Mi a mágneskapcsoló (kontaktor) feladata?,Nagy teljesítményű fogyasztók távműködtetésű kapcsolása és védelme.
+Hogyan jelölik a mágneskapcsoló tekercsének két kivezetését?,$A1$ és $A2$.
+"Mi a ""keresztreteszelés"" lényege irányváltó kapcsolásnál?","Megakadályozza, hogy a két irányt kapcsoló mágneskapcsoló egyszerre húzzon be, zárlatot okozva."
+"Milyen állapotot nevezünk ""öntartásnak"" a vezérléstechnikában?",Amikor a mágneskapcsoló a bekapcsoló gomb elengedése után is meghúzva marad a saját segédérintkezőjén keresztül.
+Mit jelent a szilárdtest relé (SSR)?,"Mozgó alkatrész nélküli, félvezetős kapcsolóeszköz."
+Soroljon fel három megújuló energiaforrást!,"Napenergia, szélenergia és geotermikus energia."
+Milyen elven működik a napelem (fotovoltaikus cella)?,A fényenergiát közvetlenül villamos energiává alakítja a félvezető rétegekben.
+Mi az optimális dőlésszög Magyarországon egy éves optimumra beállított napelemnél?,$43 - 47^{\circ}$ közötti szög a vízszinteshez képest.
+Mi az inverter feladata a napelemes rendszerben?,A napelemek egyenáramát ($DC$) a hálózattal szinkronizált váltakozó árammá ($AC$) alakítja.
+Mit jelent az MPPT rövidítés az invertereknél?,Maximális munkapont követés (Maximum Power Point Tracking) a legnagyobb hatásfok érdekében.
+Hogyan kell csatlakoztatni a napelemes rendszert a lakás hálózatához?,"A mért fővezetéki oldalba, kétirányú mérőóra alkalmazásával."
+Milyen munkavédelmi állapotot nevezünk feszültségmentesítettnek?,"Amikor a berendezést minden tápforrásról leválasztották, és ellátták a véletlen visszakapcsolás elleni védelemmel."
+Mi a feszültségmentesítés első művelete?,A teljes lekapcsolás és leválasztás.
+Szabad-e egyedül végezni villamos szerelési munkát?,"Nem, a szakképzettséggel végezhető munkatevékenységhez legalább két személy szükséges."
+Melyek a vállalkozás indításának személyi feltételei a forrás szerint?,"Dönteni tudás, kreativitás, kockázatvállalás és szakmai felkészültség."
+Melyik gazdasági társasági forma felelőssége korlátlan az egyéni vállalkozónál?,Az egyéni vállalkozó a teljes magánvagyonával korlátlanul felel.
+"Mi az üzleti terv legfontosabb, pszichológiai hatású fejezete?",Az Összefoglalás.
+Mit tartalmaz az üzleti terv Pénzügyi terve?,"Árbevételi tervet, költségtervet, eredménytervet és cash-flow becslést."
+Melyik szerv tartja nyilvántartásba a villamos tervdokumentációt készítő szakembereket?,A szakmai kamara (pl. Mérnöki Kamara).
+Mi a különbség a védővezetős érintésvédelem és a kettős szigetelés között?,"A védővezetőnél a hibaáramot elvezetjük, a kettős szigetelésnél pedig megakadályozzuk az aktív részek érinthetőségét."
+Milyen típusú tüzet okozhat a villamos ív?,"A magas hőmérséklet miatt gyulladást, fémolvadást és robbanásveszélyt."
+Mikor kötelező a tűzvédelmi főkapcsoló elhelyezése?,Többlakásos épületek és kommunális létesítmények csatlakozó főelosztójánál.
+"Mit jelent a ""remanens indukció"" ($B_r$) fogalma?",A külső mágnesező tér megszűnése után az anyagban visszamaradó mágneses indukciót.
+Milyen elven működik a kismegszakító hőkioldója?,Az áram hőhatására elhajló ikerfém mechanikusan oldja a kapcsolószerkezetet.
+Melyik hálózattípusnál a legkisebb a feszültségesés az utolsó fogyasztónál?,A hurkolt vagy gyűrűs hálózatnál a sugarashoz képest.
+Hogyan határozzuk meg a felhasználói főelosztó méretét?,"Az áramkörök száma és a beépítendő moduláris eszközök szélessége alapján, tartalék helyet hagyva."
+Milyen színű a nullavezető ($N$) a szabvány szerint?,Kék.
+Mi a villamos elválasztás (mint érintésvédelmi mód) lényege?,"A fogyasztó egy földeletlen, elválasztó transzformátorról üzemel, így egy hiba esetén nem jön létre zárt kör a földön át."
+"Mi a teendő, ha a fogyasztásmérő szekrény az ajtó nyíló szárnya mögé kerül?",Ütközőt kell elhelyezni az ajtónyílás behatárolására a mérő védelme érdekében.
+Mekkora a minimális keresztmetszete a PEN vezetőnek réz alapanyag esetén?,$10\text{ mm}^2$ (mechanikai és biztonsági okokból).
+Mit mérünk a szigetelési ellenállás mérésekor?,Az üzemi vezetők egymás közötti és a földhöz képesti ellenállását ($M\Omega$-os nagyságrendben).
+Melyik védelmi szint tartozik az oktatási rendeltetésű épületek villámvédelméhez?,III. osztályú LPS.
+Mi a különbség a primer és a szekunder relé között?,"A primer relé közvetlenül a főáramkör áramát érzékeli, a szekunder mérőváltón keresztül csatlakozik."
+Mit jelent a mágneskapcsolón a $NO$ jelölés?,Alaphelyzetben nyitott ($Normal\text{ }Open$) érintkezőt.
+Mit jelent a mágneskapcsolón az $NC$ jelölés?,Alaphelyzetben zárt ($Normal\text{ }Close$) érintkezőt.
+Miért nem szabad a napelemes DC csatlakozót terhelés alatt széthúzni?,"Mert a megszakadó egyenáram komoly villamos ívet húzhat, ami tüzet vagy égési sérülést okozhat."
+Milyen anyagból készülnek jellemzően a napelemek tartószerkezetei?,Tüzihorganyzott acélból vagy alumíniumból a korrózióvédelem miatt.
+Milyen gyakran kell ellenőrizni az áram-védőkapcsolót a próbagombbal?,Rendszeresen (havonta vagy a gyártó utasítása szerint) az üzembiztonság érdekében.

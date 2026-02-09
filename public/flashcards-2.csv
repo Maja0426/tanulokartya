@@ -1,0 +1,80 @@
+Milyen feszültségtartományt állítanak elő általában az erőművek generátorai?,$6-18 kV$ nagyságú feszültséget.
+Mi a villamosenergia-rendszer alaphálózatának (gerincvezeték) feladata?,"Az erőművi energia összegyűjtése, az erőművek együttműködése és az energia szállítása a nagy fogyasztói súlypontokba."
+Mekkora a magyarországi fő elosztóhálózat feszültsége?,$120$ vagy $220 kV$.
+Mi a nemzetközi kooperációs hálózat elsődleges célja?,A szomszédos országok alaphálózatainak összekötése villamosenergia-import vagy -export céljára.
+"Hálózat alakzat: Olyan zárt vezetékhálózat, amely a táppontból kiindulva az összes fogyasztó érintése után visszatér a táppontba.",Körvezeték
+"Hálózat alakzat: A vezetékek egymással összekapcsolt, bonyolult, zárt rendszert alkotnak.",Hurkolt hálózat
+Mekkora a kisfeszültségű elosztóhálózat szabványos névleges feszültsége Magyarországon?,"$0,4 kV$ (vagy $3 \times 400/230 V$)."
+Mi a hálózati leágazópont meghatározása?,A közcélú elosztóhálózat és a csatlakozóvezeték (vagy fogyasztói vezetékhálózat) összekötési pontja.
+Mit jelent a TN-rendszer jelölésében az első 'T' betű?,A tápláló rendszer (transzformátor) egy pontja (csillagpontja) közvetlenül le van földelve.
+Mit jelent a TN-rendszer jelölésében az 'N' betű?,A fogyasztóberendezés testjei össze vannak kötve a tápláló rendszer földelt pontjával (nullázás).
+Mi jellemzi a TN-C alrendszert a védő- és nullavezető tekintetében?,A védővezető (PE) és a nullavezető (N) a teljes hálózatban egyetlen közös vezetőben (PEN) van egyesítve.
+Hogyan alakítják ki a TN-S hálózatot?,A védővezetőt (PE) és a nullavezetőt (N) a betáplálási ponttól kezdve végig különválasztva vezetik.
+Mi a TN-C-S hálózat legfőbb jellemzője?,"A hálózat egy részén közös a PE és N vezető (PEN), majd egy ponton (pl. főelosztó) külön PE és N vezetőre válnak szét."
+Szabad-e a TN-C-S rendszerben a szétválasztás után a PE és N vezetőt újra közösíteni?,Szigorúan tilos.
+Mi a TN-rendszer működési elve hiba (testzárlat) esetén?,"A testzárlat fázis-nulla zárlattá válik, ami a túláramvédelem (zárlati kioldó) gyors lekapcsolását okozza."
+Mit jelent a TT-rendszer jelölésében a második 'T' betű?,A fogyasztóberendezések testjei a hálózati földeléstől független védőföldeléshez (fogyasztói földelőhöz) csatlakoznak.
+Melyik az alapvető méretezési feltétel TT-rendszerben túláramvédelem esetén?,$R_A \cdot I_a \le 50 V$
+Mikor kell áram-védőkapcsolót (ÁVK) alkalmazni a TT-rendszerben?,Ha a túláramvédelmi eszköz nem biztosít elég kis hurokimpedanciát az előírt lekapcsolási időhöz.
+Mi jellemzi az IT-rendszert a táppont földelése szempontjából?,A tápláló rendszernek nincs közvetlenül földelt pontja (szigetelt vagy nagy impedancián át földelt).
+Mi befolyásolja a hibaáramot ($I_d$) az IT-rendszer első testzárlata esetén?,A hálózat szivárgó áramai és a villamos berendezés teljes földelési impedanciája.
+"Mi a teendő IT-rendszerben, ha az első testzárlat nem okoz lekapcsolást?",Állandó szigetelés-ellenőrző berendezésnek fény- vagy hangjelzést kell adnia a hiba észlelésére.
+Hogyan működik az áram-védőkapcsoló (ÁVK) alapelve?,A vasmagon áthaladó üzemi vezetők áramainak pillanatnyi összege hibamentes esetben nulla; hibaáram esetén a gerjesztés kibillen és kioldást vált ki.
+Mi az ÁVK névleges kioldóáramának ($I_{\Delta n}$) általános értéke lakóépületek dugaszolóaljzatainál?,$30 mA$.
+Hány darab egyfázisú áramkört javasolt legfeljebb egyetlen ÁVK-ra csatlakoztatni?,Legfeljebb $9$ darabot.
+Milyen típusú túláramokat különböztetünk meg?,Túlterhelési áramot és zárlati áramot.
+"Definíció: Az áramkörben villamos hiba nélkül, a túlzott terhelés miatt fellépő túláram.",Túlterhelési áram
+Milyen két fő kioldó szerkezettel rendelkezik egy kismegszakító?,Termikus (időkésleltetett) kioldóval és elektromágneses (gyors) kioldóval.
+Mi a kismegszakító termikus kioldójának feladata?,A túlterhelés elleni védelem.
+Milyen tartományban old ki a 'B' jelleggörbéjű kismegszakító elektromágneses egysége?,$3-5 \times I_n$ áram fellépésekor.
+Milyen fogyasztókhoz javasolt a 'C' jelleggörbéjű kismegszakító alkalmazása?,"Nagy bekapcsolási áramfelvételű berendezésekhez, például motorokhoz és lámpacsoportokhoz."
+Hová építik be általában a 'D' jelleggörbéjű kismegszakítókat?,"Igen nagy indítóáramú gépekhez, például hegesztőtrafókhoz vagy nagyobb motorokhoz."
+Mi a szelektivitás lényege a túláramvédelemben?,"Hiba esetén a hibahelyhez legközelebbi védelmi eszköz oldjon ki legelőször, a távolabbiak működése nélkül."
+Melyik túláramvédelmi eszköz rendelkezik általában nagyobb zárlati megszakítóképességgel?,Az olvadóbiztosító.
+Mi a motorvédő kapcsoló feladata fáziskimaradás esetén?,Gyorsított kioldást valósít meg a motor leégésének megakadályozása érdekében.
+Melyek a külső villámvédelmi rendszer fő részei?,"Felfogó, levezető és földelő."
+Mi a villámvédelmi felfogó feladata?,A villámcsapások felfogása és ezzel a villámáram épületbe hatolási valószínűségének csökkentése.
+Mekkora a minimális átmérője a természetes villámvédelmi levezetőként használt acélszerkezetnek?,$8 mm$.
+Mi a villámvédelmi mérési hely (vizsgáló összekötő) célja?,Hogy a levezető és a földelő kapcsolata bontható legyen a földelési ellenállás méréséhez.
+Milyen magasságban szokás elhelyezni a villámvédelmi mérési helyet?,"A talajszint felett $0,5$ és $1,5$ méter között."
+Milyen távolságra kell elhelyezni a villámvédelmi földelőt a földbe fektetett közművektől?,Legalább $3$ méter távolságra.
+"Mi a teendő, ha a villámvédelmi földelő nem telepíthető a közművektől $3$ m távolságra?",A közművezetéket vastagfalú műanyag védőcsőbe kell helyezni.
+Melyik szabványsorozat foglalkozik a villámvédelemmel?,MSZ EN 62305.
+Mi a különbség az 'A' és 'B' típusú villámvédelmi földelők között?,"Az 'A' típusúak vonalszerűek (rudak, szalagok), a 'B' típusúak zárt hurkot alkotnak (keret, gyűrűs, betonalap földelő)."
+Milyen biológiai hatást gyakorolhat a villámcsapás a túlélő bőrére?,Úgynevezett Lichtenberg-rajzolat (áramjegyek) alakulhat ki.
+Mit jelent a villámvédelemben a 'visszacsapás' fogalma?,A földelési ellenálláson fellépő feszültségemelkedés miatt a fázisvezető szigetelésének átütése.
+Mi a belső villámvédelem két fő feladata?,Potenciálkiegyenlítés és a veszélyes megközelítés elleni védelem.
+Milyen zónákra osztja a szabvány az épületet villámvédelmi szempontból?,"LPZ (Lightning Protection Zone) zónákra ($LPZ 0, 1, 2, 3$)."
+Hány lépcsőben oldják meg általában a kisfeszültségű hálózatok túlfeszültség-védelmét?,"Három lépcsőben ($B, C, D$ fokozatok)."
+Hová telepítik a 'B' osztályú (I. típusú) túlfeszültség-levezetőket?,Az épület betáplálási pontjára vagy a főelosztóba.
+Mi a feladata a 'D' osztályú (III. típusú) túlfeszültség-levezetőnek?,A végberendezések (finomvédelem) közvetlen védelme a maradék túlfeszültségek ellen.
+Milyen eszközt használnak durva fokozatú villámáram-levezetőként?,Szikraközöket.
+Mi az EPH (Egyenpotenciálra hozó hálózat) célja?,A nagy kiterjedésű fémrészek összekötése a potenciálkülönbségek és így az áramütés megakadályozása érdekében.
+Mely elemeket kötelező bekötni az EPH-csomópontba?,"Fémes gáz-, víz-, fűtéscsöveket, betonalap-vasalást, védővezetőt és a villámvédelmi földelőt."
+Mi az inverter szerepe a napelemes (PV) rendszerekben?,A napelemek által termelt egyenáramot (DC) a hálózati használatra alkalmas váltakozó árammá (AC) alakítja.
+Milyen típusú fogyasztásmérő szükséges a hálózatra visszatápláló PV rendszerekhez?,Kétirányú (ad-vesz) mérőóra.
+Mi a biztonsági előírás a PV modulok DC oldalán végzett munka esetén?,A modulokat feszültség alatt állónak kell tekinteni (le kell takarni a feszültségmentesítéshez).
+Mekkora a minimális keresztmetszete a PV rendszer tartószerkezetét bekötő réz védővezetőnek?,$6 mm^2$.
+Milyen védelmeket kell minimálisan tartalmaznia egy háztartási méretű kiserőműnek (HMKE)?,"Rövidzárlat-, túlterhelés-, feszültség- és frekvenciafigyelő, valamint szigetüzem elleni védelmet."
+Mi az az öt alapvető művelet a feszültségmentesítés során (sorrendben)?,"Lekapcsolás, biztosítás visszakapcsolás ellen, feszültségmentesség ellenőrzése, földelés és rövidre zárás, védelem a közeli feszültség alatti részektől."
+Mekkora az érintési feszültség tartósan megengedett határértéke ($U_L$) váltakozó áramnál száraz körülmények között?,$50 V$.
+Mekkora az érintési feszültség tartósan megengedett határértéke ($U_L$) egyenáramnál?,$120 V$.
+Milyen érintésvédelmi osztályú a kettős vagy megerősített szigetelésű villamos gyártmány?,II. érintésvédelmi osztályú.
+Mi jellemzi a III. érintésvédelmi osztályba tartozó készülékeket?,Érintésvédelmi törpefeszültségű (SELV/PELV) tápláláson alapul a védelmük.
+Mi a 0. érintésvédelmi osztály meghatározása?,"Csak alapszigetelés van, védővezető nem csatlakoztatható, a védelem a környezettől függ."
+Milyen színnel jelölik a PE védővezetőt?,Zöld/sárga csíkos.
+Milyen színnel jelölik a nullavezetőt (N)?,Világoskék.
+Milyen két színkombináció engedélyezett a PEN vezető jelölésére?,"Végig kék - a végeken zöld/sárga, vagy végig zöld/sárga - a végeken kék."
+Mit jelent a SELV mozaikszó az érintésvédelemben?,Földeletlen érintésvédelmi törpefeszültség (Safety Extra Low Voltage).
+Mikor beszélünk PELV rendszerről a SELV helyett?,Ha a törpefeszültségű áramkör egy pontja üzemi okokból le van földelve.
+Mi a különbség a védőakadály és a védőfedés között?,"Az akadály csak a véletlen érintést gátolja, a fedés minden szokásos irányból védelmet nyújt."
+Mekkora a kézzel elérhető tartomány magassága a járószinttől?,"$2,5$ méter."
+Milyen áramköri védelem kötelező a fürdőszobai áramkörökhöz?,Egy $30 mA$ érzékenységű áram-védőkapcsoló (ÁVK).
+Mi a hurokimpedancia ($Z_s$) jelentése?,"A zárlati kör teljes impedanciája, amely meghatározza a hibaáram nagyságát."
+Mekkora hegesztési hosszúság szükséges a betonalap földelő vasalatának összekötésekor?,Legalább $30 mm$.
+Mi a szinkron generátor fordulatszáma ($n$) és a frekvencia ($f$) közötti összefüggés?,$f = p \cdot n$ (ahol $p$ a póluspárok száma).
+"Mi az oka annak, hogy az állórész vasmagját lemezelt kivitelben készítik?",Az örvényáramú veszteségek csökkentése érdekében.
+Milyen készülékkel védjük a lakások világítási áramköreit túláram ellen?,Általában B 10-es kismegszakítóval.
+Milyen készülékkel védjük általában a lakások dugaszolóaljzat áramköreit?,Általában C 16-os kismegszakítóval.
+Mi a 'szivárgó áram' fogalma?,A berendezés hibátlan állapotában a föld felé folyó (többnyire kapacitív) áram.
+Melyik villámvédelmi övezetben (LPZ) alakul ki csillapítatlan mágneses erőtér?,$LPZ 0$ zónában.

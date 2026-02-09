@@ -1,0 +1,195 @@
+Mi a csatlakozási pont definíciója?,A villamosmű és a fogyasztói berendezések közötti tulajdoni határ.
+Melyik magyar szabvány határozza meg a csatlakozási pontot?,Az MSZ 447.
+Meddig terjed a csatlakozó vezeték a hálózati leágazóponttól számítva?,A fogyasztói vezetékhálózat kezdőpontjáig.
+Ki a csatlakozó vezeték tulajdonosa és kezelője?,Az áramszolgáltató.
+Ki a tulajdonosa az ingatlanon belüli fővezetéknek?,Az ingatlan tulajdonosa vagy a fogyasztó.
+Mi a csatlakozó berendezés feladata?,"Összeköti a távvezeték-, alap- vagy elosztóhálózatot a fogyasztói vezetékhálózattal."
+Milyen fogyasztóberendezéseket szabad a hálózatra kapcsolni?,Amelyek nem rontják más fogyasztók vételezésének minőségét.
+Mekkora a csatlakozási teljesítményhatár kisfeszültségű kábelhálózaton?,$100\text{ kW}$-ig.
+Mekkora a csatlakozási teljesítményhatár szabadvezetékhálózaton?,$20\text{ kW}$-ig.
+Mekkora a csatlakozási teljesítményhatár kisfeszültségű transzformátorállomásból célkábellel?,$200\text{ kW}$-ig.
+Hol található a csatlakozási pont elosztóhálózatról való csatlakozásnál?,A csatlakozó szekrényben lévő biztosító elmenő kapcsain.
+Hol van a csatlakozási pont kandeláberben történő csatlakozás esetén?,A kandeláberben leágazó vezeték csatlakozási pontjánál.
+Melyik szabványsorozat szerint kötelező megoldani a fogyasztó érintésvédelmét?,Az MSZ HD 60364.
+Mit kell alkalmazni kiegészítő védelemként építkezések felvonulási építményeinél?,Áram-védőkapcsolót (RCD).
+Mi a csatlakozási pont utáni túláramvédelmi berendezés elsődleges feladata?,Az eredő méretezési teljesítmény behatárolása.
+Mi a feladata a túláramvédelemnek a hálózat védelme érdekében?,A hálózat túlterhelődésének megakadályozása.
+Milyen eszközök lehetnek a csatlakozási pont utáni első túláramvédelmi készülékek?,"Késes biztosító, kisfeszültségű megszakító vagy kismegszakító."
+Mekkora a túláramvédelmi kismegszakító maximális értéke lakások főelosztótábláján?,$25\text{ A}$.
+Milyen feltétellel üzemelhet áramfejlesztő berendezés a közcélú hálózattal párhuzamosan?,Jóváhagyott műszaki tervdokumentáció és az áramszolgáltató engedélye alapján.
+Hogyan kell biztosítani a hálózattól független áramfejlesztők elkülönítését?,Villamos vagy mechanikai reteszeléssel.
+Melyik rendelet állapítja meg a villamosművek biztonsági övezetét?,A 2/2013. (II. 22.) NGM rendelet.
+Mekkora a biztonsági övezet vízszintes távolsága $1\text{ kV}$ alatti szigetelt szabadvezeték esetén?,"$0,5\text{ méter}$."
+Mekkora a biztonsági övezet távolsága földben elhelyezett vezetéknél $35\text{ kV}$-ig?,$1\text{ méter}$ a szélső ponttól.
+Mekkora a falra szerelt szigetelt vezeték biztonsági övezete a légtér felé?,"$0,5\text{ méter}$."
+Mekkora a biztonsági övezet szabadtéri transzformátorállomásnál $35\text{ kV}$ feszültségszintig?,A berendezés szélétől vízszintesen mért $5\text{ méter}$.
+Milyen magas idegen építményt tilos létesíteni föld felszínétől mérve szabadvezeték alatt?,$3\text{ méternél}$ magasabbat.
+Mekkora vízszintes távolságot kell tartani a szabadvezetéktől szilárd burkolatú úton való közlekedéskor?,Legalább $1\text{ métert}$.
+Milyen feltétellel telepíthető fa a szabadvezeték biztonsági övezetébe?,Ha kifejlett állapotában sem közelíti meg $1\text{ méternél}$ jobban a vezetéket.
+Hány munkanapon belül köteles az áramszolgáltató tájékoztatást adni lakossági igénybejelentésre?,$8$ munkanapon belül.
+Hány napon belül köteles az áramszolgáltató tájékoztatást adni egyéb fogyasztónak hálózat hiánya esetén?,$30$ napon belül.
+Maximum hány lakásos társasházig készíthető egyszerűsített csatlakozási műszaki dokumentáció?,$4$ lakásig.
+Mekkora csatlakozási teljesítményig fogadható el az egyszerűsített műszaki dokumentáció?,Legfeljebb $30\text{ kW}$-ig.
+Ki jogosult elkészíteni a csatlakozások egyszerűsített műszaki dokumentációját?,A „minősített kivitelező”.
+Miről kell nyilatkoznia a kivitelezőnek az Installer's Declaration dokumentumban az érintésvédelem kapcsán?,Hogy a szabványossági felülvizsgálat megtörtént és eredménye jegyzőkönyvben rögzített.
+Milyen két fő módon történhet a kisfeszültségű közcélú hálózatra való csatlakozás?,Szigetelt csatlakozóvezetékkel vagy kábeles csatlakozással.
+Mekkora a megengedett maximális feszültségesés a csatlakozó vezetéken?,Maximum $1\%$.
+Mekkora a szabadvezeték max. hossza egy fázis esetén segédoszlop alkalmazása nélkül?,$40\text{ méter}$.
+Mekkora a szabadvezeték max. hossza három fázis esetén segédoszlop alkalmazása nélkül?,$30\text{ méter}$.
+Milyen keresztmetszeti tartományban kell lennie az alumínium földkábelnek háromfázisú csatlakozásnál?,$16-25-50\text{ mm}^{2}$.
+Milyen keresztmetszeti tartományban kell lennie a réz földkábelnek háromfázisú csatlakozásnál?,$10-16-25\text{ mm}^{2}$.
+Mit jelöl az ML-Al típusú vezeték?,PVC-szigetelésű alumínium légvezetéket.
+Mekkora az alap-terhelhetősége egy $25\text{ mm}^{2}$ keresztmetszetű ML-Al vezetéknek?,$90\text{ A}$.
+Milyen szigeteléssel rendelkezik az XT-Cu típusú vezeték?,XLPE (térhálós polietilén) szigeteléssel.
+Hol tilos elhelyezni a tetőtartót az épületen?,Az épület hátsó tetősíkján.
+Mekkora védőcsövet kell alkalmazni a tetőtartó mechanikai védelmére?,Mü. I. $36$ vagy $48\text{ mm}$ átmérőjű vastagfalú csövet.
+Mekkora behúzódoboz szükséges a tetőtartónál $25\text{ mm}^{2}$ feletti keresztmetszet esetén?,Legalább $150 \times 150\text{ mm}$ méretű.
+Mikor történhet a kábeles csatlakozási pont kialakítása a telekhatáron?,Ha az épület messzebb van a telekhatártól $10\text{ méternél}$.
+Mekkora védőcső alkalmazása kötelező egylakásos ház belső csatlakozó vezetékéhez?,Minimum $36\text{ mm}$ átmérőjű.
+Miért javasolt kerülni az északi oldali mérőhely-kialakítást?,"A külön mérés (páralecsapódás, fagy) miatti zavarok elkerülése végett."
+Mekkora magassági tartományban kell elhelyezni a túláramvédelmi berendezés kezelhető részeit?,"$0,6\text{ m}$ és $1,5\text{ m}$ között."
+Melyik részét érintheti a fogyasztó a fogyasztásmérő szekrénynek?,Csak a kismegszakító kapcsolókarját.
+Mekkora IP védettség szükséges a mérőszekrények számára?,Legalább $IP44$.
+Mi az álpadló (raised floor) egyik legfőbb szerkezeti jellemzője?,Állítható magasságú lábakon álló padlólapokból áll.
+Hány darab szerelvény építhető be átlagosan egy álpadló-elembe?,$4-12$ darab.
+Hogyan készül az üreges padló (hollow floor)?,A helyszínen öntik ki öntrülő anyaggal a födém fölé.
+Mekkora az üreges padló általános emelkedése a födémtől?,$7-10\text{ cm}$.
+Hová helyezik el a zárt padlócsatornákat a kivitelezés során?,"Közvetlenül a födémbe, a vasalások közé."
+Mi a célja a „rátorozásnak” a födémcsatornák telepítésekor?,"Megakadályozza, hogy a híg beton befolyjon a csatorna üregébe."
+Milyen anyagúak lehetnek a süllyesztett padlócsatlakozó egységek háza?,Acéllemez vagy műanyag.
+Milyen védettséget biztosítanak a víztömör padlódobozok zárt állapotban?,$IP54$ vagy $IP65$.
+Mi az előnye az aljzattal színelő nyitható padlócsatornának?,"A fedele bármikor levehető, így a csatlakozók bárhová áthelyezhetőek."
+Mi a mellvédcsatorna (dado trunking) elsődleges funkciója?,Erősáramú és adatátviteli szerelvények tetszőleges ponton való rögzítése.
+Milyen anyagból készülhetnek a mellvédcsatornák?,"Műanyag, acéllemez vagy alumínium."
+Mit nevezünk parapetburkolatnak a villanyszerelésben?,"Mellvédcsatornával kombinált, esztétikus burkolati rendszert."
+Milyen környezetben ideális a tokozott sínes falsarokcsatorna alkalmazása?,"Munkahelyeken, ahol sűrűn kell átrendezni az aljzatokat."
+Milyen áramerősségű rendszerekhez alkalmasak a tokozott falsarokcsatornák?,$16-25\text{ A}$.
+Hol helyezkedik el a falszegélycsatorna?,A padló és a fal találkozásánál (szegélyléc helyett).
+Milyen mechanikai terhelést bírnak el a fém taposócsatornák?,Akár egy személygépkocsi terhelését is elviselik.
+Mi az energiaoszlop (service pole) szerepe?,A padló és a mennyezet között biztosít függőleges csatlakozási lehetőséget.
+Miből készülnek általában a kábeltálcák?,Acéllemezből vagy egyéb fémlemezből.
+Mi a célja a kábeltálcák perforációjának?,A kábel hűtéséhez szükséges légáramlás biztosítása.
+Mikor alkalmaznak kábellétrát a kábeltálca helyett?,Nehezebb súlyú kábelek vezetése esetén.
+Mi a kábeltartó rács (wire mesh tray) fő előnye?,Könnyű légáramlást biztosít és egyszerű szerszámokkal szabható.
+Milyen áramtartományban mozoghatnak a tokozott síncsatornás rendszerek?,$25\text{ A}$-től akár $6000\text{ A}$-ig.
+Mi a tokozott síncsatorna legfőbb előnye ipari csarnokokban?,Bármikor könnyen és biztonságosan leágaztatható róla energia.
+Milyen keresztmetszetű rézvezető szükséges $25\text{ A}$ kismegszakítóhoz $20\text{ m}$ csatlakozóhossznál?,$6\text{ mm}^{2}$.
+Mekkora a tömege egy $25\text{ mm}^{2}$ keresztmetszetű ML-Al vezetéknek?,$132\text{ kg/km}$.
+Hány napos továbbképzést kell elvégezni a „minősített villanyszerelő” címhez?,$2$ napos tanfolyamot.
+Mi a „méretlen fővezeték” definíciója?,A csatlakozási pont és a fogyasztásmérő közötti vezetékszakasz.
+Melyik szerv tartja nyilván a hitelesített villamos tervezőket Magyarországon?,A Magyar Mérnöki Kamara.
+Milyen méretarányú helyszínrajz szükséges a csatlakozási dokumentációhoz?,$M = 1:500$.
+Szabad-e robbanásveszélyes anyagot tárolni a villamosmű biztonsági övezetében?,Szigorúan tilos.
+Hány fázisú kivitelben kell létesíteni a földkábeles csatlakozó vezetéket?,Háromfázisú kivitelben.
+Melyik égtáj felőli mérést kötelező kerülni lakóépületek tervezésekor?,Az északi oldali mérést.
+Mi a célja a méretlen hálózat plombálhatóságának?,Az illegális áramvételezés megakadályozása.
+Mekkora a méretlen fővezeték megengedett feszültségesése?,Maximum $1\%$.
+Milyen anyagú a mellvédcsatornák légterelő lamellája fűtőtest felett?,Acéllemez vagy alumínium.
+Hogyan jelölik a vastagfalú műanyag védőcsövet a szövegben?,Mü. I.
+"Mit kell tenni, ha a szabadvezeték belógása miatt nem tartható a biztonsági távolság?",Segédoszlopot kell alkalmazni.
+Hol kezdődik a mért fogyasztói hálózat érintésvédelmi védővezetője?,A csatlakozási pontnál.
+Mekkora feszültség felett nő meg a biztonsági övezet vízszintes távolsága földkábelnél?,$35\text{ kV}$ felett.
+Milyen típusú kötőelemeket alkalmaznak busbar rendszerek leágazásaihoz?,Speciális leágazó dobozokat.
+Mekkora a tokozott falsarokcsatorna fedlapjának általános vastagsága?,$3\text{ mm}$.
+Mi a funkciója a kábeltartó rácsnak a kábeltálcával szemben?,Könnyebb súlyú kábelek rugalmasabb és jobban szellőző vezetése.
+Mi a „méretlen fővezetéki elosztó” feladata?,Több fogyasztásmérő esetén a betápláló vezeték leágaztatása.
+Milyen szigetelőanyagból készülhetnek a taposócsatornák?,Merev PVC vagy elasztikus műanyag (pl. Vistalon).
+Hány darab szerelvény fér el egy víztömör padlódobozban általában?,$1$ darab.
+Miért fontos a padlócsatornák statikai ellenőrzése a födémben?,Mert gyengíthetik a födémszerkezet teherbírását.
+Mit jelent az „ML-Al $16$ tkt” jelölés?,"$16\text{ mm}^{2}$ keresztmetszetű, tömör körszelvényű alumínium légvezeték."
+Ki jogosult a csatlakozó szekrény plombálásának felbontására?,Csak az áramszolgáltató szakembere vagy felhatalmazott személy.
+Milyen keresztmetszetű rézvezeték terhelhetősége $110\text{ A}$ az XT-Cu típusnál?,$35\text{ mm}^{2}$.
+Mekkora a minimális fejátmérője egy fa tartóoszlopnak szabadvezetéknél?,Legalább $14\text{ cm}$.
+Mi az íróasztali csatlakozó modulok fő előnye?,Az erősáramú és adatátviteli pontok közvetlenül a munkafelületen érhetők el.
+Hogyan rögzíthetők a taposócsatornák a padlóhoz?,Ragasztással vagy csavarozással.
+Mit kell tenni a kisfeszültségű szabadvezeték tartószerkezetével (oszloppal)?,Biztonsági övezetet kell körülötte tartani.
+Mi a „méretlen fővezeték” feszültségesésének referencia-teljesítménye?,A csatlakozási méretezési teljesítmény.
+Milyen anyagúak lehetnek a nyitható padlócsatornák fedelei?,"Acéllemez, alumínium, fa vagy ásványgyapot."
+Mi a különbség a betápláló és a leágazó fővezeték között?,"A betápláló a hálózatot köti össze az elosztóval, a leágazó az elosztót a mérővel."
+Mekkora a biztonsági övezet vízszintes távolsága idegen vezetéktől falra szerelt szigetelt vezetéknél?,"$0,5\text{ méter}$."
+Mi a „fővezeték” anyaga egylakásos ház esetén rézvezetőnél?,Réz (Cu).
+Mekkora a megengedett max. áram a tokozott falsarokcsatornákban?,$25\text{ A}$.
+Mi a „célkábel” funkciója transzformátorállomásnál?,A transzformátor és a fogyasztói berendezés közvetlen összekötése.
+Hogyan kell elhelyezni a mérőhelyet több fogyasztó esetén?,"Csoportosan, jól hozzáférhető helyen (pl. lépcsőházban)."
+Melyik szabvány írja elő a kisfeszültségű szabadvezetéki hálózatok építését?,MSZ 151.
+Mi a „regisztrált szerelői nyilatkozat” célja?,A kivitelezés minőségbiztosítása az áramszolgáltató felé.
+Hány munkanapon belül kell a lakossági igényt megválaszolnia a szolgáltatónak hálózat esetén?,$8$ munkanap.
+Milyen védelemmel kell ellátni a kültéri energiaoszlopokat?,Legalább $IP44$ védettséggel.
+Mi a „méretlen fővezeték” toldásának korlátja?,Csak plombálható kötődobozban megengedett.
+Hány szerelvényhelyes lehet egy fröccsöntött műanyag padlódoboz?,Általában kevés ($2-4$ db).
+"Milyen keresztmetszetű az XT-Cu rézvezeték, ha a terhelhetősége $175\text{ A}$?",$70\text{ mm}^{2}$.
+Mi a „csatlakozási pont” fő jelentősége?,A karbantartási és tulajdonjogi felelősség határa.
+Mit kell tenni a csatlakozó vezeték mechanikai védelme érdekében falon való átvezetésnél?,Védőcsövet kell alkalmazni.
+Mi a „belógás” szerepe a szabadvezetékes hálózatoknál?,A hőmérsékletváltozás miatti tágulás és összehúzódás kezelése.
+Ki fizeti a csatlakozó vezeték létesítésének költségét lakossági fogyasztónál?,A jogszabályban meghatározott mértékig az áramszolgáltató vagy a fogyasztó.
+"Milyen anyagú a mellvédcsatorna, ha fokozott mechanikai védelem kell?",Acéllemez.
+Hogyan csatlakozik a fogyasztói berendezés a síncsatornához?,Dugaszolható leágazó egységeken keresztül.
+Mi a kábeltálcák anyaga korrozív környezetben?,Horganyzott vagy rozsdamentes acél.
+Mi a „méretezési feszültségesés” határértéke a teljes csatlakozáson?,Maximum $2\%$ ($1\%$ csatlakozó + $1\%$ fővezeték).
+Mekkora a biztonsági övezet vízszintes távolsága transzformátorállomástól $1\text{ kV}$ felett?,$5\text{ méter}$ ($35\text{ kV}$-ig).
+Hogyan kell rögzíteni a kábeltartó rácsokat a falhoz?,Tartókonzolok segítségével.
+Mi a „felszálló fővezeték” szerepe többemeletes épületekben?,A különböző szintek mérőhelyeinek energiaellátása.
+Milyen védelemmel kell ellátni a síncsatornás rendszereket?,Megfelelő $IP$ védettségű fémburkolattal.
+Mi a „méretlen hálózat” minimális réz keresztmetszete a szöveg szerint?,$10\text{ mm}^{2}$.
+Mekkora a biztonsági övezet távolsága a vezeték köpenyétől falon belül?,"$0,5\text{ méter}$."
+Mi a „kismegszakító” szelektívitásának jelentősége?,Hogy zárlat esetén csak a hibahelyhez legközelebbi védelem oldjon le.
+Hogyan jelölik az XLPE szigetelésű rézvezetéket?,XT-Cu.
+Mi a „falszegélycsatorna” esztétikai szerepe?,A padló és fal találkozásának lezárása és kábelvezetés.
+Mekkora a maximális távolság a tartókonzolok között kábeltálcáknál?,A kábel súlyától és a tálca teherbírásától függ.
+Mit jelent a „tokozott síncsatorna” rugalmassága?,A leágazási helyek tetszőleges megválaszthatóságát.
+Mi a „méretlen fővezeték” elhelyezési szabálya padláson?,"Csak megszakítás nélkül, védőcsőben vezethető."
+Ki adhat ki nyilatkozatot a fogyasztásmérő szekrény megfelelőségéről?,A gyártó vagy a minősített kivitelező.
+Milyen magas lehet a rakomány a biztonsági övezetben a vezeték megközelítése nélkül?,"Legfeljebb $4,5\text{ méter}$."
+Hogyan kell védeni a földkábelt mechanikai hatások ellen?,Védőcsővel vagy megfelelő mélységű takarással.
+"Mi a „fővezeték” anyaga, ha „Al” jelölésű?",Alumínium.
+Mekkora a feszültségesés maximuma a csatlakozó vezetéken?,$1\%$.
+Mi a „belógás” minimális magassága közút felett?,"$5,5\text{ méter}$."
+Milyen védelemmel látják el a kábeltálcákat tűz esetén?,Tűzgátló bevonattal vagy burkolattal.
+Mi a „leágazó doboz” feladata a síncsatornás rendszernél?,Biztosítóval ellátott leágazás biztosítása a fogyasztók felé.
+Hány lakásos épületig alkalmazható az egyszerűsített csatlakozási eljárás?,$4$ lakásig.
+Mi a „méretlen fővezetéki hálózat” érintésvédelmi osztálya általában?,II. érintésvédelmi osztály (kettős szigetelés).
+Mekkora a tetőtartó védőcsövének minimális átmérője?,$36\text{ mm}$.
+Mi a „csatlakozó berendezés” részei?,"Vezetékrendszer, átalakító- és kapcsolóberendezések."
+Mit jelent a „regisztrált szerelő” megnevezés?,"A szolgáltató által elismert, vizsgázott szakembert."
+Mi a „méretlen fővezeték” leggyakoribb elhelyezési módja?,"Védőcsőben, falba süllyesztve."
+Hogyan kell rögzíteni a mellvédcsatornákat a falhoz?,Tiplikkel és csavarokkal.
+Mi a „kábellétra” fokainak szerepe?,A kábelek mechanikai rögzítése és alátámasztása.
+Mekkora a biztonsági övezet vízszintes távolsága kisfeszültségű szabadvezetéktől?,"$0,5\text{ méter}$ (szigetelt vezeték esetén)."
+Mi a „fogyasztásmérő” hitelesítési kötelezettsége?,Csak hitelesített mérő alkalmazható elszámolásra.
+Hány munkanapon belül köteles az áramszolgáltató válaszolni nem lakossági igényre?,$30$ napon belül.
+Mi a „méretlen fővezeték” maximális hossza?,A megengedett $1\%$-os feszültségesés határozza meg.
+Milyen keresztmetszetű rézvezeték terhelhetősége $63\text{ A}$ az XT-Cu típusnál?,$16\text{ mm}^{2}$.
+Mi a „csatlakozási pont” földkábeles csatlakozásnál?,A fogadó szekrény biztosítóinak elmenő kapcsai.
+"Mit kell tenni a csatlakozó vezetékkel, ha idegen építményt keresztez?",Be kell tartani a szabványos keresztezési távolságokat.
+Mi a „tetőtartó” rögzítésének módja?,A tetőszerkezethez (szarufákhoz) való stabil kikötés.
+Milyen védettségűnek kell lennie egy fürdőszobai mellvédcsatornának?,Legalább $IPX4$ (fröccsenő víz ellen).
+Hogyan jelölik a tokozott síncsatornát az ipari rendszerekben?,Busbar.
+Mi a „kábeltálca” perforációjának esztétikai szerepe?,"Nincs esztétikai szerepe, csak hűtési és rögzítési."
+Mekkora a feszültségesés maximuma a mért hálózaton a lakáselosztóig?,Általában további $1\%$ javasolt.
+Mi a „biztonsági övezet” célja?,"Az élet- és vagyonbiztonság, valamint az üzemzavarok megelőzése."
+Hogyan kell elhelyezni a kábeltartó rácsokat?,Vízszintesen vagy függőlegesen a falon.
+Mi a „leágazó fővezeték” funkciója?,Az egyes mérőhelyek betáplálása a felszálló vezetékről.
+Milyen anyagból készülnek az energiaoszlopok?,Alumínium vagy acéllemez.
+Hány fázisú lehet a „méretlen fővezeték”?,Egy- vagy háromfázisú.
+Mit jelent az IP védettség első számjegye?,A szilárd tárgyak és érintés elleni védelmet.
+Mit jelent az IP védettség második számjegye?,A víz elleni védettség mértékét.
+Mekkora a csatlakozási teljesítményhatár célkábel esetén?,$200\text{ kW}$.
+Mi a „plombálható kötődoboz” szerepe?,A méretlen hálózat hozzáférhetőségének ellenőrzése.
+Hogyan kell jelölni a védővezetőt?,Zöld-sárga színnel.
+Mekkora a tetőtartó vastagsága Mü. I. 36-os cső esetén?,Legalább $36\text{ mm}$ külső átmérő.
+Milyen dokumentum tartalmazza a csatlakozási pont pontos helyét?,A csatlakozási műszaki tervdokumentáció.
+Mi a „méretlen hálózat” színeinek jelölése fázisoknál?,"L1, L2, L3."
+Mekkora a biztonsági övezet távolsága $35\text{ kV}$ feletti vezetéknél?,A feszültségszinttől függően nő (pl. $2\text{ m}$ vagy több).
+Mi a „fogyasztásmérő szekrény” anyaga leggyakrabban?,Műanyag (poliészter).
+Ki jogosult a mérő leolvasására?,Az áramszolgáltató megbízottja.
+Mi a „méretezési áram” meghatározásának módja?,A névleges teljesítmény és a hálózati feszültség alapján.
+Hogyan kell védeni az oszlopon lévő kábelt?,Mechanikai védelmet biztosító csatornával vagy csővel.
+Milyen keresztmetszetű rézvezeték szükséges $40\text{ A}$ kismegszakítóhoz $16\text{ m}$ csatlakozóhossznál?,$10\text{ mm}^{2}$.
+Hogyan kell rögzíteni a kábeltálcát a födémhez?,Menetes szárakkal és függesztőkkel.
+Mi a „tokozott síncsatorna” tűzvédelmi előnye?,Fémtokozása miatt nem táplálja az égést.
+Ki felelős a „méretlen fővezeték” karbantartásáért?,Az ingatlan tulajdonosa.
+Mekkora a maximális belógás szabadvezeték esetén télen?,A jégterhelés függvényében változik.
+Mi a „csatlakozási műszaki dokumentáció” érvényességi ideje?,Általában az igénybejelentéstől számított meghatározott idő (pl. $1-2$ év).
+Hogyan kell biztosítani a síncsatornák földelését?,A fémburkolat folytonosságával és bekötésével.
+Mi a „kábeltartó rács” maximális terhelhetősége?,A gyártói adatok és a rácsszerkezet függvénye.
+Mi a „méretlen hálózat” legfőbb tilalma?,Tilos róla a mérés előtt energiát vételezni.

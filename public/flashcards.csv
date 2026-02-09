@@ -1,0 +1,84 @@
+"Mit jelent a TT rendszerjelölés első ""T"" betűje?",A tápláló transzformátor csillagpontjának közvetlen földelését jelöli.
+"Mit jelent a TT rendszerjelölés második ""T"" betűje?",A fogyasztó-berendezések testjeinek védővezetőn keresztüli földelését jelöli.
+Mi a méretezési képlet TT-rendszerben túláramvédelem alkalmazásakor az érintési feszültség korlátozására?,$R_A \cdot I_a \le 50V$
+"Milyen eszközzel oldható meg az érintésvédelmi kioldás TT-rendszerben, ha a túláramvédelem nem választható elég kicsire?",Áram-védőkapcsolóval (RCD).
+Mi a hurokimpedancia ($Z_s$) összetevője TT-rendszerben?,"Tápforrás, fázisvezető, testek védővezetője, földelővezető, berendezés földelője és a tápforrás földelője."
+Mennyi a maximális megengedett lekapcsolási idő TT-rendszerben $230-400V$ esetén?,"$t < 0,7$ másodperc (32A-nél nagyobb áramnál 1 másodperc)."
+Mi jellemzi az IT-rendszer táppontjának földelését?,"Nincs közvetlenül földelt pontja (szigetelt), vagy csak nagy impedancián keresztül van földelve."
+Milyen speciális területeken alkalmazzák az IT-rendszert?,"Kórházi műtőkben, bányahálózatokban és olyan helyeken, ahol a váratlan kikapcsolás életveszélyt okozna."
+Milyen berendezés szükséges az IT-rendszerben az első szigetelési hiba jelzésére?,Állandó szigetelés-ellenőrző berendezés.
+Mi a feltétele az áram-védőkapcsoló névleges kioldóáramának ($I_{\Delta n}$) IT-rendszerben a szelektivitás érdekében?,$2 \cdot I_c < I_{\Delta n} < I_d - I_c$
+Mi a külső villámvédelmi rendszer három fő része?,"Felfogó, levezető és földelő."
+Mi a villámáram másodlagos hatása a környező fémvezetőkben?,"Nagy indukciójú mágneses tér hatására feszültséget indukál, ami átíveléshez vagy túlfeszültséghez vezethet."
+Milyen magasságú épületek esetén kell a fal felső 20%-án is felfogót kialakítani?,60 méter feletti épületmagasság esetén.
+Mi a különbség a mesterséges és a természetes felfogó között?,"A mesterséges kifejezetten villámvédelemre készült, a természetes eredetileg más építészeti célt szolgál."
+Milyen minimális távolságot kell tartani a villámvédelmi földelő és a közművek között?,Legalább 3 métert.
+Milyen típusú földelőkhöz tartoznak a vízszintes szalagföldelők és függőleges szondák?,"Az „A” típusú, vonalszerű földelőkhöz."
+Mi a „B” típusú villámvédelmi földelő jellemzője?,Síkban vagy térben zárt hurkot alkotó vezetőkből áll (pl. keretföldelő).
+Milyen magasságban szokás elhelyezni a villámvédelmi mérési helyet?,"A talajszint felett 0,5 és 1,5 méter között."
+Definíció: Túlfeszültség,A legnagyobb megengedett üzemi feszültség csúcsértékét meghaladó feszültség.
+Milyen három fokozatban oldják meg a belső túlfeszültség-védelmet?,"B, C és D fokozatban."
+Melyik túlfeszültség-védelmi fokozatot építi be az áramszolgáltató a hálózatába?,Az „A” fokozatot.
+Milyen hullámalakkal jellemzik a közvetlen villámcsapás okozta áramimpulzust?,$10/350\ \mu s$-os hullámalakkal.
+Milyen technológiát alkalmaznak általában a „B” fokozatú túlfeszültség-védőkben?,Szikraköz technológiát.
+Milyen technológiát alkalmaznak a „C” és „D” fokozatú túlfeszültség-védőkben?,Varisztor technológiát.
+Milyen vizuális jelzés mutatja a túlfeszvédő modul meghibásodását?,Az állapotjelző pirosra váltása.
+Mi a definíciója az aszinkron motornak?,"Olyan váltakozó áramú forgógép, amelynek fordulatszáma elmarad az állórész mágneses mezejének fordulatszámától."
+Miért nevezik az aszinkron motorokat indukciós gépeknek?,Mert az állórész mágneses tere feszültséget indukál a forgórész meneteiben.
+Mi a szerepe a kondenzátornak az egyfázisú aszinkron motor segédfázis áramkörében?,A forgó mágneses mező létrehozásához szükséges fáziseltolást biztosítja.
+Hogyan változtatható meg a háromfázisú aszinkron motor forgásiránya?,Bármely két fázisvezető felcserélésével.
+Mi a szinkrongép legfontosabb fordulatszám-jellemzője?,Csak egy meghatározott szinkron fordulatszámon képes tartósan üzemelni.
+Mi a szinkron fordulatszám ($f_0$) összefüggése a póluspárok számával ($p$) és a percenkénti fordulatszámmal ($n_0$)?,$f_0 = \frac{p \cdot n_0}{60}$
+Melyik részegység végzi a mechanikus egyenirányítást az egyenáramú gépekben?,A kommutátor (és a szénkefék).
+Mi az armatúravisszahatás következménye egyenáramú gépeknél?,"Eltolódik a mágneses semleges vonal, ami a szénkefék szikrázását okozza."
+Milyen szerkezeti elemekkel csökkenthető az armatúravisszahatás?,Segédpólusokkal és kompenzálótekercseléssel.
+Milyen gerjesztésű egyenáramú motort fedezett fel Jedlik Ányos 1861-ben?,A párhuzamos (sönt) gerjesztésű öngerjesztő motort.
+Mi a tekercsek impregnálásának (itatásának) elsődleges célja?,A levegő kiszorítása jó hővezető szigetelőanyaggal a jobb hőelvezetés és nedvesség elleni védelem érdekében.
+Milyen minimális keresztmetszetűnek kell lennie a csatlakozóvezetéknek rézvezető esetén?,Legalább $10\ mm^2$.
+Mennyi a szigetelt csatlakozó szabadvezeték minimális magassága út felett?,Legalább 5 méter.
+Milyen magassági tartományban kell elhelyezni a fogyasztásmérő szekrényt?,"Alsó széle 0,6 m, felső széle 1,8 m magasságban lehet a padlószinttől."
+Milyen minimális IP védettségűnek kell lennie a fogyasztásmérő szekrénynek?,Legalább IP44-es védettségűnek.
+Definíció: Villamos áramkör,"Azon villamos szerkezetek együttese, amelyek táplálása és túláramvédelme közös."
+Milyen típusú kismegszakító ajánlott lakossági világítási áramkörökhöz?,B 10-es kismegszakító.
+Milyen típusú kismegszakító ajánlott lakossági dugaszolóaljzatokhoz?,C 16-os kismegszakító.
+Milyen érzékenységű áram-védőkapcsoló kötelező a lakossági általános célú dugaszolóaljzatokhoz?,$30\ mA$ névleges kioldóáramú.
+Melyek a fürdőszobai „0” sáv határai?,A fürdőkád vagy a zuhanytálca belseje (víztere).
+Szabad-e PE (védő) vezetőt megszakítani leválasztó kapcsolóval?,"Nem, a védővezetőt soha nem szabad megszakítani."
+Mi a TN-C rendszer fő jellemzője a vezetők tekintetében?,A védő- és nullavezető egy közös PEN vezetőben van egyesítve a teljes hálózaton.
+Mit jelent a TN-S jelölésben az „S” betű?,Separated (elkülönített): a védővezető (PE) és a nullavezető (N) külön van választva.
+Mi a TN-C-S rendszer lényege?,"A hálózat egy részén közös a PEN vezető, majd egy ponton (pl. főelosztó) PE és N vezetőre válik szét."
+Szabad-e a szétválasztott N és PE vezetőt később újra közösíteni?,"Nem, az újbóli közösítés szigorúan tilos."
+Milyen színű a nullavezető (N) szigetelése?,Világoskék.
+Milyen színű a védővezető (PE) szigetelése?,Zöld/sárga.
+Mi a hurokimpedancia ($Z_s$) feltétele TN-rendszerben az önműködő lekapcsoláshoz?,$Z_s \le \frac{U_0}{I_a}$
+Milyen értékű az érintési limitfeszültség ($U_L$) váltakozó áram esetén?,$50V\ AC$.
+Milyen értékű az érintési limitfeszültség ($U_L$) egyenáram esetén?,$120V\ DC$.
+Hogyan működik az áram-védőkapcsoló (ÁVK)?,"Érzékeli az üzemi vezetők áramainak különbségét (hibaáram), és lekapcsol, ha ez meghaladja a névleges értéket."
+Mire szolgál az „AC” típusú áram-védőkapcsoló?,Tiszta szinuszos váltakozó áramú hálózatok szivárgó áram védelmére.
+Melyik ÁVK típus alkalmas pulzáló egyenáramú komponenseket tartalmazó hálózatokhoz?,Az „A” típusú áram-védőkapcsoló.
+Milyen mélységbe kell fektetni a földkábelt szabályozott terepen?,"Minimum 0,7 méter mélységbe."
+Mi a kábeltéglázás vagy fedlapozás célja?,Mechanikai védelem biztosítása a kábel számára a földárokban.
+Mennyi a kábel legkisebb megengedett hajlítási sugara fektetéskor?,$10d$ (ahol $d$ a kábel külső átmérője).
+Milyen színű kábeljelző szalagot kell alkalmazni erősáramú kábel felett?,"Sárga színűt, villámjellel ellátva."
+Milyen eszközt használnak a kábelerek azonosítására az üzembe helyezés előtt?,Kicsengető eszközt vagy folytonosságvizsgálót.
+Mi a mágneskapcsoló működtető tekercsének szabványos jelölése?,A1 és A2.
+Mit jelent az NO rövidítés az érintkezőknél?,Normal Open (alaphelyzetben nyitott).
+Mit jelent az NC rövidítés az érintkezőknél?,Normal Close (alaphelyzetben zárt).
+Mi a funkciója a „keresztreteszelésnek” irányváltó kapcsolásban?,"Megakadályozza a két mágneskapcsoló egyidejű behúzását, ami zárlatot okozna."
+Milyen készülékkel védhető meg leghatásosabban a motor a túlmelegedéstől?,Beépített PTC érzékelős termisztoros védelmi relével.
+Mi a különbség a szilárdtest relé és a hagyományos relé között?,"A szilárdtest relé nem tartalmaz mozgó alkatrészt, félvezetőkkel kapcsol."
+"Melyik védőcső típus (MÜ I, II, III) a legellenállóbb a mechanikai behatásokkal szemben?",Az MÜ I jelű merev műanyag védőcső.
+Milyen színtartományú fényt érzékel az emberi szem?,"Vörös, sárga, zöld és kék hullámhosszúságú sugarak keverékét."
+Mi a megvilágítás ($E$) mértékegysége?,Lx (lux).
+Mi a fényerősség ($I$) mértékegysége?,cd (kandela).
+Milyen előnye van az elektronikus előtétnek a hagyományos fojtótekercshez képest?,"Nincs vibrálás, kisebb a veszteség, és nincs szükség külön gyújtóra."
+Mit mutat meg az IP védettség első számjegye?,A szilárd tárgyak és érintés elleni védelem mértékét.
+Hogyan kell a szelektivitást biztosítani túláramvédelmi eszközöknél?,"Úgy, hogy hiba esetén a hibahelyhez legközelebbi eszköz oldjon ki először."
+Mi a különbség a kismegszakító termikus és elektromágneses kioldója között?,"A termikus a túlterhelés ellen (lassú), az elektromágneses a zárlat ellen (gyors) véd."
+Milyen kioldási tényező ($\alpha$) tartozik a „C” jelleggörbéjű kismegszakítóhoz?,$\alpha = 10$.
+Milyen érintésvédelmi mód a SELV?,Földeletlen érintésvédelmi törpefeszültség.
+Milyen érintésvédelmi osztályba tartoznak a kettős szigetelésű készülékek?,II. érintésvédelmi osztályba.
+Mi jellemzi a III. érintésvédelmi osztályba tartozó gyártmányokat?,Érintésvédelmi törpefeszültségű ($SELV/PELV$) tápláláson alapul a védelmük.
+Mi a villamos elválasztás lényege mint hibavédelmi mód?,"A fogyasztót egy földeletlen biztonsági transzformátorról táplálják, így testzárlatkor nem záródik áramkör a földön át."
+Hány fogyasztó táplálható egyetlen biztonsági transzformátorról villamos elválasztás esetén?,Fő szabály szerint csak egyetlen fogyasztókészülék.
+Mi az EPH (Egyen Potenciálra Hozás) célja?,A különböző vezetőképes részek közötti potenciálkülönbség és így az áramütés veszélyének megszüntetése.
