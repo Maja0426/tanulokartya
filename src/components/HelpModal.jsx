@@ -12,14 +12,15 @@ const style = {
     boxShadow: 24,
     p: 4,
     borderRadius: 4,
-    outline: 'none',
+    maxHeight: '90vh',
+    overflowY: 'auto',
 };
 
 const HelpModal = ({ open, onClose }) => {
     return (
         <Modal open={open} onClose={onClose}>
             <Box sx={style}>
-                <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mb: 2 }}>
+                <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mb: 2, position: 'sticky', top: 0, bgcolor: 'background.paper', zIndex: 1, pb: 1 }}>
                     <Typography variant="h5" component="h2" fontWeight="700">
                         Hogyan használd?
                     </Typography>
@@ -28,44 +29,46 @@ const HelpModal = ({ open, onClose }) => {
                     </IconButton>
                 </Box>
 
-                <List>
-                    <ListItem>
-                        <ListItemIcon>
+                <List sx={{ pt: 0 }}>
+                    <ListItem alignItems="flex-start" sx={{ px: 0 }}>
+                        <ListItemIcon sx={{ minWidth: 44, mt: 0.5 }}>
                             <MousePointerClick size={24} color="#6366f1" />
                         </ListItemIcon>
                         <ListItemText
                             primary="Kártya megfordítása"
+                            primaryTypographyProps={{ fontWeight: 600 }}
                             secondary="Kattints a kártyára vagy nyomd meg a 'Válasz megtekintése' gombot."
                         />
                     </ListItem>
-                    <ListItem>
-                        <ListItemIcon>
+                    <ListItem alignItems="flex-start" sx={{ px: 0 }}>
+                        <ListItemIcon sx={{ minWidth: 44, mt: 0.5 }}>
                             <BookOpen size={24} color="#6366f1" />
                         </ListItemIcon>
                         <ListItemText
                             primary="Témakör váltása"
+                            primaryTypographyProps={{ fontWeight: 600 }}
                             secondary="Kattints a 'Témakörök' gombra a fejlécben más CSV fájlok betöltéséhez."
                         />
                     </ListItem>
-                    <ListItem>
-                        <ListItemIcon>
+                    <ListItem alignItems="flex-start" sx={{ px: 0 }}>
+                        <ListItemIcon sx={{ minWidth: 44, mt: 0.5 }}>
                             <Keyboard size={24} color="#6366f1" />
                         </ListItemIcon>
                         <ListItemText
                             primary="Billentyűzet"
+                            primaryTypographyProps={{ fontWeight: 600 }}
                             secondary="Használd a Space-t a fordításhoz, a nyilakat a léptetéshez."
                         />
                     </ListItem>
-                    <ListItem>
-                        <Box sx={{ display: 'flex', gap: 2 }}>
+                    <ListItem alignItems="flex-start" sx={{ px: 0 }}>
+                        <ListItemIcon sx={{ minWidth: 44, mt: 0.5 }}>
                             <Smartphone size={24} color="#6366f1" />
-                            <Box>
-                                <Typography variant="subtitle1" sx={{ fontWeight: 600 }}>Mobil használat</Typography>
-                                <Typography variant="body2" color="text.secondary">
-                                    Legyints balra a következő, jobbra az előző kártyához. Érintsd meg a kártyát bárhol a fordításhoz.
-                                </Typography>
-                            </Box>
-                        </Box>
+                        </ListItemIcon>
+                        <ListItemText
+                            primary="Mobil használat"
+                            primaryTypographyProps={{ fontWeight: 600 }}
+                            secondary="Legyints balra a következő, jobbra az előző kártyához. Érintsd meg a kártyát bárhol a fordításhoz."
+                        />
                     </ListItem>
                 </List>
 
