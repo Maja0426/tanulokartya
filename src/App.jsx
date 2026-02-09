@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { Container, Box, Typography, Button, IconButton, Paper, Stack, Tooltip, Menu, MenuItem } from '@mui/material';
+import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronLeft, ChevronRight, Shuffle, HelpCircle, BookOpen } from 'lucide-react';
 import Papa from 'papaparse';
 import Flashcard from './components/Flashcard';
@@ -23,6 +24,7 @@ const App = () => {
     const [loadingMessage, setLoadingMessage] = useState("Kezelés indítása...");
     const [currentSource, setCurrentSource] = useState(SOURCES[0]);
     const [anchorEl, setAnchorEl] = useState(null);
+    const [direction, setDirection] = useState(0); // 1 for next, -1 for previous
 
     // Preload ALL CSV data at startup
     useEffect(() => {
@@ -86,6 +88,7 @@ const App = () => {
 
     const handleNext = useCallback(() => {
         if (!cards.length) return;
+        setDirection(1);
         setIsFlipped(false);
         setTimeout(() => {
             setCurrentIndex((prev) => (prev + 1) % cards.length);
@@ -94,6 +97,7 @@ const App = () => {
 
     const handlePrevious = useCallback(() => {
         if (!cards.length) return;
+        setDirection(-1);
         setIsFlipped(false);
         setTimeout(() => {
             setCurrentIndex((prev) => (prev - 1 + cards.length) % cards.length);
@@ -102,6 +106,7 @@ const App = () => {
 
     const handleRandom = useCallback(() => {
         if (!cards.length) return;
+        setDirection(0); // Fade in for random
         setIsFlipped(false);
         setTimeout(() => {
             const randomIndex = Math.floor(Math.random() * cards.length);
@@ -218,19 +223,51 @@ const App = () => {
             </Box>
 
             {/* Main Flashcard */}
-            <Box sx={{ flexGrow: 1, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                {cards.length > 0 ? (
-                    <Flashcard
-                        question={currentCard.question}
-                        answer={currentCard.answer}
-                        isFlipped={isFlipped}
-                        onFlip={handleFlip}
-                        onNext={handleNext}
-                        onPrevious={handlePrevious}
-                    />
-                ) : (
-                    <Typography variant="h6" color="text.secondary">Nincsenek kártyák ebben a témakörben.</Typography>
-                )}
+            <Box sx={{ flexGrow: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', position: 'relative', overflow: 'hidden', py: 2 }}>
+                <AnimatePresence mode="wait" custom={direction}>
+                    <motion.div
+                        key={`${currentSource.id}-${currentIndex}`}
+                        custom={direction}
+                        initial={(direction) => ({
+                            x: direction === 0 ? 0 : direction * 300,
+                            opacity: 0,
+                            scale: 0.9
+                        })}
+                        animate={{
+                            x: 0,
+                            opacity: 1,
+                            scale: 1
+                        }}
+                        exit={(direction) => ({
+                            x: direction === 0 ? 0 : direction * -300,
+                            opacity: 0,
+                            scale: 0.9
+                        })}
+                        transition={{
+                            type: 'spring',
+                            stiffness: 300,
+                            damping: 30
+                        }}
+                        style={{
+                            width: '100%',
+                            display: 'flex',
+                            justifyContent: 'center'
+                        }}
+                    >
+                        {cards.length > 0 ? (
+                            <Flashcard
+                                question={currentCard.question}
+                                answer={currentCard.answer}
+                                isFlipped={isFlipped}
+                                onFlip={handleFlip}
+                                onNext={handleNext}
+                                onPrevious={handlePrevious}
+                            />
+                        ) : (
+                            <Typography variant="h6" color="text.secondary">Nincsenek kártyák ebben a témakörben.</Typography>
+                        )}
+                    </motion.div>
+                </AnimatePresence>
             </Box>
 
             {/* Navigation Controls */}
